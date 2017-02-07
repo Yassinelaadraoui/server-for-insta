@@ -9,20 +9,20 @@ var weatherData = [
 	{
 		username: "Oulu",
 		caption: "Oulu",
-		url: "http://feelgrafix.com/data/landscape/landscape-1.jpg",
+		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
 		likes: 5
 		
 	},
 	{
 		username: "Oulu",
 		caption: "Oulu",
-		url: "http://feelgrafix.com/data/landscape/landscape-11.jpg",
+		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
 		likes: 5
 	},
 	{
 		username: "Oulu",
 		caption: "Oulu",
-		url: "Oulu",
+		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
 		likes: 5
 	}
 ]
