@@ -1,9 +1,10 @@
 {
 	"data" : [
 		{
-			"location": "Oulu",
-			"temperature": -5,
-			"humidity": 76
+			"username": "yassine laadraoui",
+		"caption": "damn brooo",
+		"url": ".jpg"
+		"likes":6
 		}
 	]
 }
