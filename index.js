@@ -8,18 +8,22 @@ app.use(bodyParser.json());
 var weatherData = [
 	{
 		username: "Oulu",
-		temperature: -5,
-		humidity: 76
+		caption: "Oulu",
+		url: "Oulu",
+		likes: 5
+		
 	},
 	{
-		username: "Brelin",
-		temperature: 10,
-		humidity: 80
+		username: "Oulu",
+		caption: "Oulu",
+		url: "Oulu",
+		likes: 5
 	},
 	{
-		username: "London",
-		temperature: -3,
-		humidity: 44
+		username: "Oulu",
+		caption: "Oulu",
+		url: "Oulu",
+		likes: 5
 	}
 ]
 

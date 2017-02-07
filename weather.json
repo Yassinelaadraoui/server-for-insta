@@ -2,8 +2,10 @@
 	"data" : [
 		{
 			"username": "Oulu",
-			"temperature": -5,
-			"humidity": 76
+		"caption": "Oulu",
+		"url": "Oulu",
+		"likes": 5
+			
 		}
 	]
 }
