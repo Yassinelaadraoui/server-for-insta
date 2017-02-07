@@ -9,14 +9,14 @@ var weatherData = [
 	{
 		username: "Oulu",
 		caption: "Oulu",
-		url: "Oulu",
+		url: "http://feelgrafix.com/data/landscape/landscape-1.jpg",
 		likes: 5
 		
 	},
 	{
 		username: "Oulu",
 		caption: "Oulu",
-		url: "Oulu",
+		url: "http://feelgrafix.com/data/landscape/landscape-11.jpg",
 		likes: 5
 	},
 	{
