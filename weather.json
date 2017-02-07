@@ -1,7 +1,7 @@
 {
 	"data" : [
 		{
-			"location": "Oulu",
+			"username": "Oulu",
 			"temperature": -5,
 			"humidity": 76
 		}

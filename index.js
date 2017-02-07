@@ -7,17 +7,17 @@ app.use(bodyParser.json());
 
 var weatherData = [
 	{
-		location: "Oulu",
+		username: "Oulu",
 		temperature: -5,
 		humidity: 76
 	},
 	{
-		location: "Brelin",
+		username: "Brelin",
 		temperature: 10,
 		humidity: 80
 	},
 	{
-		location: "London",
+		username: "London",
 		temperature: -3,
 		humidity: 44
 	}
@@ -34,7 +34,7 @@ app.get('/weather', function(req, res){
 app.post('/weather',function(req, res){
 	weatherData.push(req.body);
 	res.sendStatus(200);
-	
+
 });
 
 app.get('/weather/:city', function(req, res){
