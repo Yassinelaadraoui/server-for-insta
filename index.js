@@ -7,19 +7,22 @@ app.use(bodyParser.json());
 
 var weatherData = [
 	{
-		location: "Oulu",
-		temperature: -5,
-		humidity: 76
+		username: "yassine laadraoui",
+		caption: "damn brooo",
+		url: ".jpg"
+		likes:6
 	},
 	{
-		location: "Brelin",
-		temperature: 10,
-		humidity: 80
+		username: "yassine laadraoui",
+		caption: "damn brooo",
+		url: ".jpg"
+		likes:6
 	},
 	{
-		location: "London",
-		temperature: -3,
-		humidity: 44
+		username: "yassine laadraoui",
+		caption: "damn brooo",
+		url: ".jpg"
+		likes:6
 	}
 ]
 
@@ -34,6 +37,7 @@ app.get('/weather', function(req, res){
 app.post('/weather',function(req, res){
 	weatherData.push(req.body);
 	res.sendStatus(200);
+
 });
 
 app.get('/weather/:city', function(req, res){
