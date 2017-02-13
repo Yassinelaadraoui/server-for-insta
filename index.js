@@ -57,6 +57,11 @@ app.post('/weather',function(req, res){
 	res.sendStatus(200);
 
 });
+app.post('/user',function(req, res){
+	users.push(req.body);
+	res.sendStatus(200);
+
+});
 
 app.get('/weather/:city', function(req, res){
 	weatherData.forEach(function(item){
