@@ -4,7 +4,11 @@ var express = require("express"),
 
 var app = express();
 app.use(bodyParser.json());
-
+var users =[{
+		username:"yassinelaadraoui",
+		password:"yassine",
+		email:"yassinelaadraoui@gmail.com"
+}]
 var weatherData = [
 	{
 		username: "Oulu",
@@ -45,7 +49,9 @@ app.get('/', function(req, res){
 app.get('/weather', function(req, res){
 	res.json({ data: weatherData});
 });
-
+app.get('/user', function(req, res){
+	res.json({ data: users});
+});
 app.post('/weather',function(req, res){
 	weatherData.push(req.body);
 	res.sendStatus(200);
@@ -62,7 +68,16 @@ app.get('/weather/:city', function(req, res){
 
 	res.sendStatus(404);
 });
+app.get('/user/:username', function(req, res){
+	weatherData.forEach(function(item){
+		if (item.location.toLowerCase()==req.params.city.toLowerCase()){
+			res.json(item);
+			return;
+		}
+	});
 
+	res.sendStatus(404);
+});
 app.listen(process.env.PORT || 3000, function(){
 	console.log('Server is running on port ' + process.env.PORT);
 });
