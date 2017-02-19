@@ -14,6 +14,7 @@ var users =[{
 				following: 0,
 				posts: 1
 		},
+		following:{"Oulu"},
 		posts :[{
 				id: 1,
 				url : "",
