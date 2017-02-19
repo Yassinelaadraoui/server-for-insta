@@ -19,21 +19,21 @@ var users =[{
 				url : "",
 				caption:"some caption #life",
 				likes:6,
-				comments:
+				comments:""
 					
 				},{
 				id: 1,
 				url : "",
 				caption:"some caption #life",
 				likes:6,
-				comments:
+				comments:""
 					
 				},{
 				id: 1,
 				url : "",
 				caption:"some caption #life",
 				likes:6,
-				comments:
+				comments:""
 					
 				}]
 				
