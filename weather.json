@@ -8,7 +8,7 @@
 			
 		}
 	]
-	"user":[{
+	"user" : [{
 			"username":"yassinelaadraoui",
 			"password":"yassine",
 			"email":"yassinelaadraoui@gmail.com",
@@ -22,7 +22,7 @@
 				"id": 1,
 				"url" : "",
 				"caption":"some caption #life",
-				likes":6,
+				"likes":6,
 				"comments":""}
 					
 				]

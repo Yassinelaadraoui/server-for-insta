@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 var users =[{
 		username:"yassinelaadraoui",
 		password:"yassine",
-		email:"yassinelaadraoui@gmail.com"
+		email:"yassinelaadraoui@gmail.com",
 		bio:"It Student",
 		count: {
 				follower:100,
@@ -22,14 +22,14 @@ var users =[{
 				comments:""
 					
 				},{
-				id: 1,
+				id: 2,
 				url : "",
 				caption:"some caption #life",
 				likes:6,
 				comments:""
 					
 				},{
-				id: 1,
+				id: 3,
 				url : "",
 				caption:"some caption #life",
 				likes:6,
