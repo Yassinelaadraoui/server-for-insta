@@ -8,7 +8,36 @@ var users =[{
 		username:"yassinelaadraoui",
 		password:"yassine",
 		email:"yassinelaadraoui@gmail.com"
-}]
+		bio:"It Student",
+		count: {
+				follower:100,
+				following: 0,
+				posts: 1
+		},
+		posts :[{
+				id: 1,
+				url : "",
+				caption:"some caption #life",
+				likes:6,
+				comments:
+					
+				},{
+				id: 1,
+				url : "",
+				caption:"some caption #life",
+				likes:6,
+				comments:
+					
+				},{
+				id: 1,
+				url : "",
+				caption:"some caption #life",
+				likes:6,
+				comments:
+					
+				}]
+				
+		}]
 var weatherData = [
 	{
 		username: "Oulu",
