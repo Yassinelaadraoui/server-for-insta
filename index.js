@@ -44,20 +44,24 @@ var weatherData = [
 		username: "Oulu",
 		caption: "Oulu",
 		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
-		likes: 5
+		likes: 5,
+		tag:"#oulu"
+
 		
 	},
 	{
 		username: "Oulu",
 		caption: "Oulu",
 		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
-		likes: 5
+		likes: 5,
+		tag:"#oulu"
 	},
 	{
 		username: "Oulu",
 		caption: "Oulu",
 		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
-		likes: 5
+		likes: 5,
+		tag:"#oulu"
 	}
 ]
 app.all('*', function(req, res, next) {
