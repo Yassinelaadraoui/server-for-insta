@@ -95,10 +95,10 @@ app.post('/weather',function(req, res){
 
 });
 app.get('/searchedpost', function(req, res){
-	res.json({ data: users});
+	res.json({ data: searchedpost});
 });
 app.post('/searchedpost',function(req, res){
-	weatherData.push(req.body);
+	searchedpost.push(req.body);
 	res.sendStatus(200);
 
 });
