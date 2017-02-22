@@ -64,6 +64,9 @@ var weatherData = [
 		tag:"#oulu"
 	}
 ]
+var searchedpost = [{
+
+	}]
 app.all('*', function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
@@ -87,6 +90,14 @@ app.get('/user', function(req, res){
 	res.json({ data: users});
 });
 app.post('/weather',function(req, res){
+	weatherData.push(req.body);
+	res.sendStatus(200);
+
+});
+app.get('/searchedpost', function(req, res){
+	res.json({ data: users});
+});
+app.post('/searchedpost',function(req, res){
 	weatherData.push(req.body);
 	res.sendStatus(200);
 
