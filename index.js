@@ -57,7 +57,7 @@ var weatherData = [
 		tag:"#oulu"
 	},
 	{
-		username: "Oulu",
+		username: "yassine",
 		caption: "Oulu",
 		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
 		likes: 5,
