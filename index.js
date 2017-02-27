@@ -17,21 +17,56 @@ var users =[{
 		following:["Oulu"],
 		posts :[{
 				id: 1,
-				url : "",
+				url : "https://adizkat.files.wordpress.com/2013/10/download2.jpg",
 				caption:"some caption #life",
 				likes:6,
 				comments:""
 					
 				},{
 				id: 2,
-				url : "",
+				url : "https://adizkat.files.wordpress.com/2013/10/download2.jpg",
 				caption:"some caption #life",
 				likes:6,
 				comments:""
 					
 				},{
 				id: 3,
-				url : "",
+				url : "https://adizkat.files.wordpress.com/2013/10/download2.jpg",
+				caption:"some caption #life",
+				likes:6,
+				comments:""
+					
+				}]
+				
+		},
+		{
+		username:"oulu",
+		password:"oulu",
+		email:"yassinelaadraoui@gmail.com",
+		bio:"It Student",
+		count: {
+				follower:100,
+				following: 0,
+				posts: 1
+		},
+		following:["Oulu"],
+		posts :[{
+				id: 1,
+				url : "https://s-media-cache-ak0.pinimg.com/originals/71/d3/79/71d3798a97f84c1882283978bd2fd7f8.jpg",
+				caption:"some caption #life",
+				likes:6,
+				comments:""
+					
+				},{
+				id: 2,
+				url : "https://s-media-cache-ak0.pinimg.com/originals/29/1d/fa/291dfa930840dc32d8c4d5dab0df5fa8.jpg",
+				caption:"some caption #life",
+				likes:6,
+				comments:""
+					
+				},{
+				id: 3,
+				url : "http://kuvat.oulunmiekkailuseura.fi/oulu.jpg",
 				caption:"some caption #life",
 				likes:6,
 				comments:""
