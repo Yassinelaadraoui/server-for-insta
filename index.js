@@ -165,6 +165,14 @@ app.post('/searchedpost',function(req, res){
 	res.sendStatus(200);
 
 });
+app.get('/searchedtag', function(req, res){
+	res.json({ data: searchedpost});
+});
+app.post('/searchedtag',function(req, res){
+	searchedpost.push(req.body);
+	res.sendStatus(200);
+
+});
 app.post('/user',function(req, res){
 	users.push(req.body);
 	res.sendStatus(200);
