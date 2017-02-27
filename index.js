@@ -77,10 +77,28 @@ var users =[{
 var weatherData = [
 	{
 		username: "Oulu",
-		caption: "Oulu",
-		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
+		caption: "some caption #life",
+		url: "http://kuvat.oulunmiekkailuseura.fi/oulu.jpg",
 		likes: 5,
-		tag:"#oulu"
+		tag:"#life"
+
+		
+	},
+	{
+		username: "Oulu",
+		caption: "Oulu",
+		url: "https://s-media-cache-ak0.pinimg.com/originals/29/1d/fa/291dfa930840dc32d8c4d5dab0df5fa8.jpg",
+		likes: 10,
+		tag:"#life"
+
+		
+	},
+	{
+		username: "Oulu",
+		caption: "Oulu",
+		url: "https://s-media-cache-ak0.pinimg.com/originals/71/d3/79/71d3798a97f84c1882283978bd2fd7f8.jpg",
+		likes: 5,
+		tag:"#life"
 
 		
 	},
@@ -92,9 +110,16 @@ var weatherData = [
 		tag:"#oulu"
 	},
 	{
-		username: "yassine",
+		username: "yassinemaadraoui",
 		caption: "Oulu",
 		url: "http://paradiseintheworld.com/wp-content/uploads/2012/01/casablanca-morocco.jpg",
+		likes: 5,
+		tag:"#yassine"
+	}
+	{
+		username: "yassinelaadraoui",
+		caption: "Oulu",
+		url: "https://adizkat.files.wordpress.com/2013/10/download2.jpg",
 		likes: 5,
 		tag:"#yassine"
 	}
